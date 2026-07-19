@@ -1,16 +1,17 @@
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main (){
+int main()
+{
 
-int number;
+    int number;
 
-do {
-  cout << "Enter a positive number: ";
-  cin >> number;
-} while (number > 0);
+    do
+    {
+        cout << "Enter a positive number: ";
+        cin >> number;
+    } while (number > 0);
 
-return 0;
-
+    return 0;
 }
